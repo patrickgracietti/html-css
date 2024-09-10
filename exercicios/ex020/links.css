@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+/*
+    #   =   id
+    .   =   class
+    :   =   pseudo-class
+    ::  =   pseudo-element
+    >   =   children
+*/
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    color:red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited{
+    color: darkred;
+}
+
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+a:active{
+    color:blue;
+}
+
+.especial{
+    background-color: rgb(252, 183, 183);
+}
+.especial::before{
+    content: '⮕ ';
+}
+.especial::after{
+    content: ' ⬅';
+}

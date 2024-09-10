@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+* {
+    font-family: 'Comic Sans MS', sans-serif;
+}
+
+body{
+    background-image: linear-gradient(to right, #730202, #262626);
+}
+
+main{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #730202;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+
+h1{
+    color: #F20530;
+    text-align: center;
+    text-shadow: 1px 1px 2px #730202;
+}
+
+h2{
+    color: #F2071B;
+}
+
+p{
+    text-align: justify;
+}
