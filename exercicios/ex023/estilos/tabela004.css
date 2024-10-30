@@ -18,3 +18,11 @@ th,td{
     border: 1px solid gray;
     padding: 10px;
 }
+
+col.teste1{
+    background-color: red;
+}
+
+col.teste2{
+    background-color: blue;
+}
